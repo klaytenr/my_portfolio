@@ -29,24 +29,28 @@ div{
 }
 .pacman_up{
     background-size: 100%;
+    border-radius: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('https://s3.us-east-2.amazonaws.com/klaytenrichmondportfolio/me_up.png'); 
 }
 .pacman_right{
     background-size: 100%;
+    border-radius: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('https://s3.us-east-2.amazonaws.com/klaytenrichmondportfolio/me_right.png'); 
 }
 .pacman_down{
     background-size: 100%;
+    border-radius: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('https://s3.us-east-2.amazonaws.com/klaytenrichmondportfolio/me_down.png'); 
 }
 .pacman_left{
     background-size: 100%;
+    border-radius: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('https://s3.us-east-2.amazonaws.com/klaytenrichmondportfolio/me_left.png'); 
