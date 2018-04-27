@@ -373,7 +373,7 @@ export class ContactMeComponent implements OnInit {
   }
   gameOver(){
     alert("Hire Me");
-    window.open("http://localhost:8000/assets/images/resume.pdf", "_blank");
+    window.open("https://s3.us-east-2.amazonaws.com/klaytenrichmondportfolio/resume.pdf", "_blank");
     window.location.reload();
   }
   send(){
