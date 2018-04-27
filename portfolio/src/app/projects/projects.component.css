@@ -1,0 +1,127 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+#whole{
+    width: 87.75em;
+    height: 59.75em;
+    border: 2px solid blueviolet;
+    background-color: black;
+}
+#wrapper{
+    border: 2px solid rebeccapurple;
+    background-color: forestgreen;
+    display: inline-block;
+    width: 60em;
+    height: 55em;
+    vertical-align: top;
+    position: relative;
+}
+img{
+    height: 30em;
+    margin: 0 -12.5em 0 2em;
+}
+#one{
+    position: relative;
+    top: .5em;
+}
+#two{
+    position: relative;
+    top: 1em;
+}
+#cardone{
+    background-image: url('/assets/images/card_front.png');
+    position: absolute;
+    bottom: 0;
+    right: 18em;
+    height: 30em;
+    width: 18em;
+    background-size: 100%;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+#cardtwo{
+    background-image: url('/assets/images/card_front.png');
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 30em;
+    width: 18em;
+    background-size: 100%;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 400%;
+    text-align: center;
+    padding-top: 1.5em;
+}
+h3{
+    border: 1px solid black;
+    overflow: scroll;
+    height: 10em;
+    width: 11em;
+    margin-top: 1em;
+}
+video{
+    margin-left: 2.8em;
+}
+#three{
+    position: relative;
+    top: 1.5em;
+}
+#four{
+    position: relative;
+    top: 2em;
+}
+.words > div {
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    display: inline-block;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-image: url('/assets/images/chip.png');
+    background-size: 100%;
+    color: black;
+    text-align: center;
+    font-size: 200%;
+    margin: 1em -.345em;
+}
+p{
+    position: relative;
+    top: .4em;
+    transform: rotate(-40deg);
+}
+#nav{
+    display: inline-block;
+    background-color: black;
+    border: none;
+    width: 25em;
+    height: 52em;
+    text-align: left;
+}
+.words{
+    transform: rotate(40deg);
+    position: relative;
+    top: 7.5em;
+    left: .1em;
+}
+.tooltip {
+    display: inline-block;
+    width: 50%;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    position: relative;
+    bottom: 9em;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+:checked + #two{
+    display: none;
+}

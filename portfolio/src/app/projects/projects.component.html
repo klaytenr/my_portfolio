@@ -1,0 +1,64 @@
+<div id="whole">
+    <div id="nav">
+        <div class="words">
+            <div [routerLink]="['../home']" class='filled'><p>H</p></div>
+            <div [routerLink]="['../home']" class='filled'><p>O</p></div>
+            <div [routerLink]="['../home']" class='filled'><p>M</p></div>
+            <div [routerLink]="['../home']" class='filled'><p>E</p></div><br>
+        </div>
+        <div class="words">
+            <div [routerLink]="['../about-me']" class='filled'><p>A</p></div>
+            <div [routerLink]="['../about-me']" class='filled'><p>B</p></div>
+            <div [routerLink]="['../about-me']" class='filled'><p>O</p></div>
+            <div [routerLink]="['../about-me']" class='filled'><p>U</p></div>
+            <div [routerLink]="['../about-me']" class='filled'><p>T</p></div>
+        </div>
+        <div class="words">
+            <div [routerLink]="['../skills']" class='filled'><p>S</p></div>
+            <div [routerLink]="['../skills']" class='filled'><p>K</p></div>
+            <div [routerLink]="['../skills']" class='filled'><p>I</p></div>
+            <div [routerLink]="['../skills']" class='filled'><p>L</p></div>
+            <div [routerLink]="['../skills']" class='filled'><p>L</p></div>
+            <div [routerLink]="['../skills']" class='filled'><p>S</p></div><br>
+        </div>
+        <div class="words">
+            <div [routerLink]="['../projects']" class='filled'><p>P</p></div>
+            <div [routerLink]="['../projects']" class='filled'><p>R</p></div>
+            <div [routerLink]="['../projects']" class='filled'><p>O</p></div>
+            <div [routerLink]="['../projects']" class='filled'><p>J</p></div>
+            <div [routerLink]="['../projects']" class='filled'><p>E</p></div>
+            <div [routerLink]="['../projects']" class='filled'><p>C</p></div>
+            <div [routerLink]="['../projects']" class='filled'><p>T</p></div>
+            <div [routerLink]="['../projects']" class='filled'><p>S</p></div><br>
+        </div>
+        <div class="words">        
+            <div [routerLink]="['../contact-me']" class='filled'><p>C</p></div>
+            <div [routerLink]="['../contact-me']" class='filled'><p>O</p></div>
+            <div [routerLink]="['../contact-me']" class='filled'><p>N</p></div>
+            <div [routerLink]="['../contact-me']" class='filled'><p>T</p></div>
+            <div [routerLink]="['../contact-me']" class='filled'><p>A</p></div>
+            <div [routerLink]="['../contact-me']" class='filled'><p>C</p></div>
+            <div [routerLink]="['../contact-me']" class='filled'><p>T</p></div>
+        </div>
+    </div>
+
+    <div id="wrapper">
+        <div class="tooltip" id='cards'>
+            <img *ngIf='card1 == false' (click)='card1click()' id='one' src="assets/images/card_back.png" alt="Card Back">
+            <img *ngIf='card2 == false' (click)='card2click()' id='two' src="assets/images/card_back.png" alt="Card Back">
+            <span class="tooltiptext">DRAW</span>
+        </div>    
+        <div id="display">
+            <div *ngIf='card1 == true' id="cardone">
+                <h1>More Coming Soon</h1>
+            </div>
+            <div *ngIf='card2 == true' id="cardtwo">
+                <video width="200" height="220" controls>
+                    <source src="assets/images/stones.mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>This is an e-commerce website I made as a solo project. The website has functionality for: logging in and registering, adding items to a cart, functional check-out(whether logged in or not). In addition, there is an Administrator function that allows the admin to: edit user information, delete users, add items to sell, view and complete orders made by customers. Technologies Used: HTML5, CSS3, Bootstrap, Django, and Python.</h3>
+            </div>
+        </div> 
+    </div>
+</div>

@@ -1,0 +1,70 @@
+<div id="wrapper">
+    <div id="nav">
+        <div class="words">
+            <div [routerLink]="['../home']" class='filled'><p>H</p></div>
+            <div [routerLink]="['../home']" class='filled'><p>O</p></div>
+            <div [routerLink]="['../home']" class='filled'><p>M</p></div>
+            <div [routerLink]="['../home']" class='filled'><p>E</p></div><br>
+        </div>
+        <div class="words">
+            <div [routerLink]="['../about-me']" class='filled'><p>A</p></div>
+            <div [routerLink]="['../about-me']" class='filled'><p>B</p></div>
+            <div [routerLink]="['../about-me']" class='filled'><p>O</p></div>
+            <div [routerLink]="['../about-me']" class='filled'><p>U</p></div>
+            <div [routerLink]="['../about-me']" class='filled'><p>T</p></div>
+        </div>
+        <div class="words">
+            <div [routerLink]="['../skills']" class='filled'><p>S</p></div>
+            <div [routerLink]="['../skills']" class='filled'><p>K</p></div>
+            <div [routerLink]="['../skills']" class='filled'><p>I</p></div>
+            <div [routerLink]="['../skills']" class='filled'><p>L</p></div>
+            <div [routerLink]="['../skills']" class='filled'><p>L</p></div>
+            <div [routerLink]="['../skills']" class='filled'><p>S</p></div><br>
+        </div>
+        <div class="words">
+            <div [routerLink]="['../projects']" class='filled'><p>P</p></div>
+            <div [routerLink]="['../projects']" class='filled'><p>R</p></div>
+            <div [routerLink]="['../projects']" class='filled'><p>O</p></div>
+            <div [routerLink]="['../projects']" class='filled'><p>J</p></div>
+            <div [routerLink]="['../projects']" class='filled'><p>E</p></div>
+            <div [routerLink]="['../projects']" class='filled'><p>C</p></div>
+            <div [routerLink]="['../projects']" class='filled'><p>T</p></div>
+            <div [routerLink]="['../projects']" class='filled'><p>S</p></div><br>
+        </div>
+        <div class="words">        
+            <div [routerLink]="['../contact-me']" class='filled'><p>C</p></div>
+            <div [routerLink]="['../contact-me']" class='filled'><p>O</p></div>
+            <div [routerLink]="['../contact-me']" class='filled'><p>N</p></div>
+            <div [routerLink]="['../contact-me']" class='filled'><p>T</p></div>
+            <div [routerLink]="['../contact-me']" class='filled'><p>A</p></div>
+            <div [routerLink]="['../contact-me']" class='filled'><p>C</p></div>
+            <div [routerLink]="['../contact-me']" class='filled'><p>T</p></div>
+        </div>
+        <form (submit)='send()'>
+            <h4>Subject:</h4> <input type="text" name="subject" [(ngModel)]="newEmail.subject"><br>
+            <h4>Email:</h4> <input type="email" name="email" [(ngModel)]="newEmail.email"><br>
+            <h4>Message:</h4> <br> <textarea rows="4" cols="50" name="message" [(ngModel)]="newEmail.message"></textarea>
+            <input id='send' type="submit" value="Send">
+        </form>
+        <button id='play' *ngIf='start == false' (click)='playgame()'>PLAY</button>
+        <button id='resume' *ngIf='paused == true' (click)='resume()'>RESUME</button>
+        <button id='pause' *ngIf='start == true && paused == false' (click)='pausegame()'>PAUSE</button>
+    </div>
+    <div id='world'>
+        <div *ngFor='let row of world'>
+            <div *ngFor='let tile of row'>
+                <div *ngIf='tile === 1' class='wall'></div>
+                <div *ngIf='tile === 2' class='coin'></div>
+                <div *ngIf='tile === 3' class='ground'></div>
+                <a href="https://www.facebook.com/klayten.richmond.5"><div *ngIf='tile === 5' class='facebook'></div></a>
+                <a href="https://www.linkedin.com/in/klayten-richmond-36a310155/"><div *ngIf='tile === 6' class='linkedin'></div></a>
+                <a href="https://github.com/klaytenr"><div *ngIf='tile === 7' class='github'><i class="fab fa-github fa-3x"></i></div></a>
+                <div *ngIf='tile === 8' class='pacman_right'></div>
+                <div *ngIf='tile === 9' class='pacman_left'></div>
+                <div *ngIf='tile === 10' class='pacman_up'></div>
+                <div *ngIf='tile === 11' class='pacman_down'></div>
+            </div>
+            <br>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 160%;
+  text-align: center;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  grid-auto-rows: 50px;
+  max-width: 1000px;
+  padding: 16px;
+  grid-column-gap: 0.1em;
+  grid-row-gap: 0.1em;
+}
+.color{
+  background-color: saddlebrown;
+}
+
+.filled{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: tan;
+  color: black;
+  outline: .1em solid peru;
+  outline-offset: -.1em;
+}
+.filledName{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: tan;
+  color: black;
+  outline: .1em solid peru;
+  outline-offset: -.1em;
+  width: 1.2em;
+  text-align: center;
+  height: 1.2em;
+  font-size: 100%;
+  margin: .1em;
+}
+
+.blue{
+  background-color: cornflowerblue;
+}
+
+.red{
+  background-color: darkorange;
+}
+
+.pink{
+  background-color: hotpink;
+}
+
+.lightgreen{
+  background-color: limegreen;
+}
+
+#top { 
+  grid-column-start: 1; 
+  grid-column-end: 16; 
+  grid-row-start: 1; 
+  grid-row-end: 2; 
+  color: black;
+}
+
+#right { 
+  grid-column-start: 15; 
+  grid-column-end: 15; 
+  grid-row-start: 2; 
+  grid-row-end: 15; 
+}
+
+#left { 
+  grid-column-start: 1; 
+  grid-column-end: 1; 
+  grid-row-start: 2; 
+  grid-row-end: 15; 
+  }
+
+  #bottom { 
+    grid-column-start: 1; 
+    grid-column-end: 16; 
+    grid-row-start: 15; 
+    grid-row-end: 16; 
+    color: black;
+  }
+
+  .border{
+    border: none;
+    border-radius: 0px;
+  }
+  
+  div {
+    border: 1.5px solid white;
+    background-color: wheat;
+    color: #d9480f;
+    width: 100%;
+    display: block;
+  }
+  p{
+    font-size: 118%;
+    color: white;
+    display: inline;
+    position: relative;
+    bottom: .1em;
+  }
