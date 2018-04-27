@@ -36,7 +36,7 @@
   grid-column-end: 8; 
   grid-row-start: 1; 
   grid-row-end: 5; 
-  background-image: url('/assets/images/sherlock.png');
+  background-image: url('https://s3.us-east-2.amazonaws.com/klaytenrichmondportfolio/sherlock.png');
   background-size: 100%;
   clip-path: polygon(0% 0%, 97% 0%, 97% 97%, 85.5% 97%, 85.5% 100%, 71.5% 100%, 71.5% 97%, 0% 97%);
   border: none;
@@ -46,7 +46,7 @@
   grid-column-end: 16; 
   grid-row-start: 1; 
   grid-row-end: 8; 
-  background-image: url('/assets/images/washington.png');
+  background-image: url('https://s3.us-east-2.amazonaws.com/klaytenrichmondportfolio/washington.png');
   background-size: 200%;
   clip-path: polygon(3% 0%, 97% 0%, 97% 97%, 66.5% 97%, 66.5% 100%, 33.5% 100%, 33.5% 97%, 3% 97%);
   border: none;
@@ -56,7 +56,7 @@
   grid-column-end: 25; 
   grid-row-start: 1; 
   grid-row-end: 7; 
-  background-image: url('/assets/images/dojo.png');
+  background-image: url('https://s3.us-east-2.amazonaws.com/klaytenrichmondportfolio/dojo.png');
   background-size: 100%;
   clip-path: polygon(16% 0%, 100% 0%, 100% 97%, 29% 97%, 29% 100%, 16% 100%, 16% 97%, 3% 97%, 3% 16%, 16% 16%);
   border: none;
@@ -66,7 +66,7 @@
   grid-column-end: 8; 
   grid-row-start: 7; 
   grid-row-end: 12; 
-  background-image: url('/assets/images/vegas.png');
+  background-image: url('https://s3.us-east-2.amazonaws.com/klaytenrichmondportfolio/vegas.png');
   background-size: 120%;
   clip-path: polygon(14.5% 3%, 14.5% 23%, 0% 23%, 0% 77%, 14% 77%, 14% 97%, 43% 97%, 
                      43% 100%, 57% 100%, 57% 97%, 83% 97%, 83% 77%, 97% 77%, 97% 60%, 
@@ -78,7 +78,7 @@
   grid-column-end: 7; 
   grid-row-start: 13; 
   grid-row-end: 18; 
-  background-image: url('/assets/images/bowling.png');
+  background-image: url('https://s3.us-east-2.amazonaws.com/klaytenrichmondportfolio/bowling.png');
   background-size: 150%;
   clip-path: polygon(97% 3%, 97% 60%, 100% 60%, 100% 80%, 97% 80%, 97% 97%,
                      0% 97%, 0% 3%, 17% 3%, 17% 0%, 33.5% 0%, 33.5% 3%);
@@ -89,7 +89,7 @@
   grid-column-end: 15; 
   grid-row-start: 9; 
   grid-row-end: 16; 
-  background-image: url('/assets/images/me.jpg');
+  background-image: url('https://s3.us-east-2.amazonaws.com/klaytenrichmondportfolio/me.jpg');
   background-size: 210%;
   background-position-x: center;
 }
@@ -98,7 +98,7 @@
   grid-column-end: 25; 
   grid-row-start: 10; 
   grid-row-end: 17; 
-  background-image: url('/assets/images/school.png');
+  background-image: url('https://s3.us-east-2.amazonaws.com/klaytenrichmondportfolio/school.png');
   background-size: 100%;
   clip-path: polygon(3% 3%, 12.5% 3%, 12.5% 0%, 25% 0%, 25% 3%, 100% 3%, 100% 97%, 40% 97%, 40% 83%, 3% 83%, 3% 71%, 0% 71%, 0% 57%, 3% 57%);
   border: none;
@@ -108,7 +108,7 @@
   grid-column-end: 7; 
   grid-row-start: 20; 
   grid-row-end: 25; 
-  background-image: url('/assets/images/cross.png');
+  background-image: url('https://s3.us-east-2.amazonaws.com/klaytenrichmondportfolio/cross.png');
   background-size: 120%;
   clip-path: polygon(0% 23%, 0% 100%, 97% 100%, 97% 23%, 80% 23%, 80% 20%, 83% 20%, 83% 3%, 16% 3%, 16% 23%);
   border: none;
@@ -118,7 +118,7 @@
   grid-column-end: 17; 
   grid-row-start: 18; 
   grid-row-end: 26; 
-  background-image: url('/assets/images/redondo.png');
+  background-image: url('https://s3.us-east-2.amazonaws.com/klaytenrichmondportfolio/redondo.png');
   background-size: 180%;
   clip-path: polygon(3% 3%, 12.5% 3%, 12.5% 0%, 24.5% 0%, 24.5% 3%, 75% 3%, 75% 0%, 87.5% 0%, 87.5% 3%, 
                     97% 3%, 97% 25%, 100% 25%, 100% 38%, 97% 38%, 97% 72%, 73% 72%, 73% 100%, 
@@ -130,7 +130,7 @@
   grid-column-end: 25; 
   grid-row-start: 19; 
   grid-row-end: 25; 
-  background-image: url('/assets/images/marines.png');
+  background-image: url('https://s3.us-east-2.amazonaws.com/klaytenrichmondportfolio/marines.png');
   background-size: 80%;
   background-color: white;
   clip-path: polygon(100% 100%, 3% 100%, 3% 3%, 17% 3%, 17% 0%, 33.5% 0%, 33.5% 3%, 83.5% 3%, 83.5% 16%, 100% 16%);
@@ -278,7 +278,7 @@
   height: 2em;
   display: inline-block;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  background-image: url('/assets/images/chip.png');
+  background-image: url('https://s3.us-east-2.amazonaws.com/klaytenrichmondportfolio/chip.png');
   background-size: 100%;
   color: black;
   text-align: center;

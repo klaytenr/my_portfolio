@@ -30,7 +30,7 @@ img{
     top: 1em;
 }
 #cardone{
-    background-image: url('/assets/images/card_front.png');
+    background-image: url('https://s3.us-east-2.amazonaws.com/klaytenrichmondportfolio/card_front.png');
     position: absolute;
     bottom: 0;
     right: 18em;
@@ -41,7 +41,7 @@ img{
     background-repeat: no-repeat;
 }
 #cardtwo{
-    background-image: url('/assets/images/card_front.png');
+    background-image: url('https://s3.us-east-2.amazonaws.com/klaytenrichmondportfolio/card_front.png');
     position: absolute;
     bottom: 0;
     right: 0;
@@ -80,7 +80,7 @@ video{
     height: 2em;
     display: inline-block;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    background-image: url('/assets/images/chip.png');
+    background-image: url('https://s3.us-east-2.amazonaws.com/klaytenrichmondportfolio/chip.png');
     background-size: 100%;
     color: black;
     text-align: center;

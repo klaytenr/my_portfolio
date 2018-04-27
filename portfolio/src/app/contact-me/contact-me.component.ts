@@ -86,84 +86,84 @@ export class ContactMeComponent implements OnInit {
     start2.subscribe(t => {
       this.up(this.ghost2);
     });
-    let start3 = Observable.timer(1000);
-    start3.subscribe(t => {
+    let start4 = Observable.timer(1000);
+    start4.subscribe(t => {
       this.left(this.ghost3);
     });
-    let start1 = Observable.timer(1400);
-    start1.subscribe(t => {
+    let start11 = Observable.timer(1400);
+    start11.subscribe(t => {
       this.up(this.ghost1);
     });
-    let start2 = Observable.timer(1400);
-    start2.subscribe(t => {
+    let start22 = Observable.timer(1400);
+    start22.subscribe(t => {
       this.right(this.ghost2);
     });
-    let start3 = Observable.timer(1400);
-    start3.subscribe(t => {
+    let start34 = Observable.timer(1400);
+    start34.subscribe(t => {
       this.right(this.ghost3);
     });
-    let start1 = Observable.timer(1800);
-    start1.subscribe(t => {
+    let start15 = Observable.timer(1800);
+    start15.subscribe(t => {
       this.left(this.ghost1);
     });
-    let start2 = Observable.timer(1800);
-    start2.subscribe(t => {
+    let start62 = Observable.timer(1800);
+    start62.subscribe(t => {
       this.up(this.ghost2);
     });
-    let start3 = Observable.timer(1800);
-    start3.subscribe(t => {
+    let start37 = Observable.timer(1800);
+    start37.subscribe(t => {
       this.left(this.ghost3);
     });
-    let start1 = Observable.timer(2200);
-    start1.subscribe(t => {
+    let start18 = Observable.timer(2200);
+    start18.subscribe(t => {
       this.left(this.ghost1);
     });
-    let start2 = Observable.timer(2200);
-    start2.subscribe(t => {
+    let start29 = Observable.timer(2200);
+    start29.subscribe(t => {
       this.up(this.ghost2);
     });
-    let start3 = Observable.timer(2200);
-    start3.subscribe(t => {
+    let start30 = Observable.timer(2200);
+    start30.subscribe(t => {
       this.up(this.ghost3);
     });
-    let start1 = Observable.timer(2600);
-    start1.subscribe(t => {
+    let start16 = Observable.timer(2600);
+    start16.subscribe(t => {
       this.left(this.ghost1);
     });
-    let start2 = Observable.timer(2600);
-    start2.subscribe(t => {
+    let start32 = Observable.timer(2600);
+    start32.subscribe(t => {
       this.right(this.ghost2);
     });
-    let start3 = Observable.timer(2600);
-    start3.subscribe(t => {
+    let start38 = Observable.timer(2600);
+    start38.subscribe(t => {
       this.up(this.ghost3);
     });
-    let start1 = Observable.timer(3000);
-    start1.subscribe(t => {
+    let start21 = Observable.timer(3000);
+    start21.subscribe(t => {
       this.down(this.ghost1);
     });
-    let start2 = Observable.timer(3000);
-    start2.subscribe(t => {
+    let start24 = Observable.timer(3000);
+    start24.subscribe(t => {
       this.right(this.ghost2);
     });
-    let start3 = Observable.timer(3000);
-    start3.subscribe(t => {
+    let start35 = Observable.timer(3000);
+    start35.subscribe(t => {
       this.up(this.ghost3);
     });
-    let start2 = Observable.timer(3400);
-    start2.subscribe(t => {
+    let start20 = Observable.timer(3400);
+    start20.subscribe(t => {
       this.right(this.ghost2);
     });
-    let start3 = Observable.timer(3400);
-    start3.subscribe(t => {
+    let start43 = Observable.timer(3400);
+    start43.subscribe(t => {
       this.up(this.ghost3);
     });
-    let start2 = Observable.timer(3800);
-    start2.subscribe(t => {
+    let start42 = Observable.timer(3800);
+    start42.subscribe(t => {
       this.down(this.ghost2);
     });
-    let start3 = Observable.timer(3800);
-    start3.subscribe(t => {
+    let start53 = Observable.timer(3800);
+    start53.subscribe(t => {
       this.up(this.ghost3);
     });
   }
