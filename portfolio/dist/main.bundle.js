@@ -632,8 +632,8 @@ var ContactMeComponent = /** @class */ (function () {
     };
     ContactMeComponent.prototype.gameOver = function () {
         alert("Hire Me");
-        window.open("http://localhost:8000/assets/images/resume.pdf", "_blank");
-        window.location.reload();
+        window.open("https://s3.us-east-2.amazonaws.com/klaytenrichmondportfolio/resume.pdf", "_blank");
+        this.pausegame();
     };
     ContactMeComponent.prototype.send = function () {
         if (!this.newEmail.subject || !this.newEmail.email || !this.newEmail.message) {
